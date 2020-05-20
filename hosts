@@ -1,0 +1,7 @@
+[webservers]
+18.224.40.142
+
+[all:vars]
+ansible_connection=ssh
+ansible_user=karthik
+ansible_ssh_pass=kihtrak
