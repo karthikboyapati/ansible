@@ -1,7 +1,11 @@
 [webservers]
 18.224.40.142
 
+[dbservers]
+3.20.223.175
+
 [all:vars]
 ansible_connection=ssh
 ansible_user=karthik
 ansible_ssh_pass=kihtrak
+

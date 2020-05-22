@@ -1,0 +1,9 @@
+- name: Transfer and execute a script.
+  hosts: dbservers
+  remote_user: karthik
+  tasks:
+     - name: Transfer the script
+       copy: src=/home/karthik/scripts/evidences_script.sh  dest=/home/karthik mode=0755
+
+     - name: Execute the script
+       command: sudo sh /home/karthik/evidences_script.sh
