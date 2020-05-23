@@ -7,5 +7,5 @@
 [all:vars]
 ansible_connection=ssh
 ansible_user=karthik
-ansible_ssh_pass=kihtrak
+ansible_ssh_pass=***********
 
