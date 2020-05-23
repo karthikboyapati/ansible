@@ -1,13 +1,14 @@
 - hosts: all
+  sudo: yes
   tasks:
   - name: Create a login user
     user:
-     name: test_user2
-     password: 'test_user2@123'
+     name: test_user3
+     password: '???'
      groups: # Empty by default, here we give it some groups
      - sudo
      state: present
      system: no             # Defaults to no
      shell: /bin/bash       # Defaults to /bin/bash
      createhome: yes        # Defaults to yes
-     home: /home/test_user2  # Defaults to /home/<username>
+     home: /home/test_user3  # Defaults to /home/<username>
