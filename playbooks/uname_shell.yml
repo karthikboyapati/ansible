@@ -1,5 +1,5 @@
 ---
-- hosts: qa
+- hosts: webservers
   tasks:
     - name: Execute Shell Commands
       shell: uname
