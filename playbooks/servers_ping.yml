@@ -6,4 +6,4 @@
     - debug: msg="Hello"
 - hosts: dev
   tasks:
-    - debug: msg="Hello Dev"
+    - debug: msg="Testing Ping Response!!"
