@@ -1,0 +1,3 @@
+- import_playbook: servers_ping.yml
+- import_playbook: useradd.yml
+- import_playbook: script_execute.yml
